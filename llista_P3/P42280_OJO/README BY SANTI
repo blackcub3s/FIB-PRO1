@@ -1,0 +1,9 @@
+En aquest programa vaig intetntar llegir les files com a neter, obtenint un error quan tenia un nombre que tingués
+més (estricte) a 10 nombres. EL rpoblema es que intentava representar un int que noe s pot representar, ja que estava per 
+sobre dels 2000 milions de nombres positius que pot representar el tipus de dades int.
+
+CALia tractar-ho com a chars. I per a tractar-ho, calia passar de char a enter simplement passant el caracter '0' a
+l'rnyrt d asci corresponent (int('0'))
+i despres fer la diferencia amb el nombre char donat (de '0' a '9') -tambe prevoament passat a ascii-
+
+nota que els chars son unitats atomiques. SI no hi ha espais no es problema.
